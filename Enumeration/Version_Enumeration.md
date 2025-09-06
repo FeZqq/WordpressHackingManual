@@ -33,16 +33,17 @@ Example:
 
 
 ### Readme.html
-If the "meta" tag and the "X-Powered-By" disabled, check for the "/readme.html" for wordpress version.
+- If the "meta" tag and the "X-Powered-By" disabled, check for the "/readme.html" for wordpress version. (Note: This trick only valid on older versions of wordpress)
 
 ![Readme](./img/readme_html.png)
 
 
 ### Javascript, CSS Resources
-The version might be appear on javascript and css resources as a parameter.
+- The version might be appear on javascript and css resources as a parameter.
 
 ![Parameter](./img/parameter.png)
 
 ------------
 # Why is Important Wordpress Version
 - Certain WordPress versions are known to have vulnerabilities that can be directly exploited; therefore, accurately detecting the version is essential.
+- Exploitation with core version is explained on another title in this repo.
