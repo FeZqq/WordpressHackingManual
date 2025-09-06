@@ -24,6 +24,7 @@ Other Interesting Files:
 /xmlrpc.php
 /.htaccess
 /wp-config.php
+/_wpeprivate/config.json
 ```
 
 If you can browse /wp-content/plugins/ - the enumeration of plugins and versions becomes much easier.
