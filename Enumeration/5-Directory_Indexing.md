@@ -13,6 +13,17 @@ To check for directory indexing you can browse to folder locations and see if yo
 /wp-content/themes/
 /uploads/
 /images/
+/wp-includes/
+```
+
+Other Interesting Files:
+```
+/robots.txt
+/feed
+/readme.html
+/xmlrpc.php
+/.htaccess
+/wp-config.php
 ```
 
 If you can browse /wp-content/plugins/ - the enumeration of plugins and versions becomes much easier.
@@ -22,3 +33,5 @@ If you can not browse these endpoints, just right click any photo on the site an
 Example:
 
 ![Directory_Indexing](./img/directory_indexing.png)
+
+
