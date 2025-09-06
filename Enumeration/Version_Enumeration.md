@@ -43,5 +43,6 @@ The version might be appear on javascript and css resources as a parameter.
 
 ![Parameter](./img/parameter.png)
 
-
+------------
 # Why is Important Wordpress Version
+- Certain WordPress versions are known to have vulnerabilities that can be directly exploited; therefore, accurately detecting the version is essential.
