@@ -47,3 +47,6 @@ Example:
 # Why is Important Wordpress Version
 - Certain WordPress versions are known to have vulnerabilities that can be directly exploited; therefore, accurately detecting the version is essential.
 - Exploitation with core version is explained on another title in this repo.
+
+### Mitigation
+- A good mitigation for WordPress version enumeration is to limit or hide version information that can be disclosed through HTML meta tags, HTTP headers, or default files. This can be done by removing the <meta name="generator"> tag, disabling or restricting the X-Powered-By header at the web server level, and deleting or blocking public access to files such as readme.html that reveal version numbers. In addition, WordPress administrators should regularly update both the core and plugins to the latest versions, because even if the version cannot be easily enumerated, outdated code remains vulnerable.

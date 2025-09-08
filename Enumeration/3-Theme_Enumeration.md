@@ -30,3 +30,5 @@ Example:
 
 ![Theme_readme](./img/theme_readme_html.png)
 
+### Mitigation
+- To protect against theme enumeration, administrators should disable directory listing on the server and restrict access to sensitive files such as readme.txt or changelog.txt within theme directories. Regularly updating all themes to their latest versions ensures that even if a theme is identified, any known vulnerabilities are patched. Additionally, removing unused or inactive themes reduces the attack surface

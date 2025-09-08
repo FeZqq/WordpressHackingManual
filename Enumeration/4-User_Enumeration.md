@@ -38,3 +38,7 @@ curl https://example.com/wp-json/?rest_route=/wp/v2/users
 Example:
 
 ![wp_json](./img/wp_json.png)
+
+
+### Mitigation
+- To prevent user enumeration, administrators should disable or restrict access to endpoints that expose usernames, such as the REST API (/wp-json/wp/v2/users) and author archive URLs. Limiting information returned by the server on failed login attempts—so that it does not reveal whether a username exists—also reduces risk. Implementing strong passwords and two-factor authentication for all accounts, removing or renaming default accounts like admin, and keeping WordPress core, themes, and plugins updated further minimizes the potential impact if usernames are discovered.

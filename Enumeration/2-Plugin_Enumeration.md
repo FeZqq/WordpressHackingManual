@@ -16,3 +16,7 @@ Example:
 ![Plugin_detect](./img/plugin_detect.png)
 
 ![Plugin_readme](./img/plugin_readme.png)
+
+
+### Mitigation
+- To reduce the risk of plugin enumeration, administrators should disable directory listing on the web server and restrict direct access to sensitive files like readme.txt or changelog.txt within plugin directories. Regularly updating all plugins to their latest versions ensures that even if attackers identify them, the risk of exploiting known vulnerabilities is minimized.

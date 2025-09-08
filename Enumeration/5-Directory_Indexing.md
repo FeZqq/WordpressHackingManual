@@ -36,3 +36,5 @@ Example:
 ![Directory_Indexing](./img/directory_indexing.png)
 
 
+### Mitigation
+- To prevent directory indexing, web administrators should disable the feature at the server level (Apache: Options -Indexes; Nginx: autoindex off;) to ensure that the contents of directories are not publicly listed. Access to sensitive directories such as /wp-content/, /wp-includes/, and /wp-admin/ should be restricted or protected using proper permissions. Additionally, sensitive files like readme.html, wp-config.php, and configuration JSON files should be removed from public access or blocked via .htaccess or server rules. Regularly auditing directory permissions and using security plugins or a Web Application Firewall (WAF) can further help block automated scans and prevent attackers from enumerating installed themes, plugins, or other site information.
