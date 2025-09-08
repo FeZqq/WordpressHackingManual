@@ -6,7 +6,7 @@
 
 ### Basic Scan
 ```
-wpscan.rb --url www.example.com
+wpscan --url www.example.com
 ```
 
 ### API Token for More Requests
@@ -16,16 +16,16 @@ wpscan --url http://example.com --api-token <YOUR_API_KEY>
 
 ### Plugins Enumeration
 ```
-wpscan.rb --url www.example.com --enumerate p
+wpscan --url www.example.com --enumerate p
 ```
 ### All Plugins Enumeration
 ```
-wpscan.rb --url www.example.com --enumerate ap
+wpscan --url www.example.com --enumerate ap
 ```
 
 ### Users Enumeration
 ```
-wpscan.rb --url www.example.com --enumerate u
+wpscan --url www.example.com --enumerate u
 ```
 
 ### Theme Enumeration
@@ -34,7 +34,7 @@ wpscan --url www.example.com --enumerate t
 ```
 ### All Themes Enumeration
 ```
-wpscan.rb --url www.example.com --enumerate at
+wpscan --url www.example.com --enumerate at
 ```
 
 ### Scan and enumerate plugins, themes & users in a single command
@@ -44,17 +44,17 @@ wpscan --url www.example.com --enumerate ap,at,u
 
 ### Enumerate for Config Backups
 ```
-wpscan.rb --url www.example.com --enumerate c
+wpscan --url www.example.com --enumerate c
 ```
 
 ### Enumerate for Database Dumps
 ```
-wpscan.rb --url www.example.com --enumerate db
+wpscan --url www.example.com --enumerate db
 ```
 
 ### Enumerate for Media Files
 ```
-wpscan.rb --url www.example.com --enumerate med
+wpscan --url www.example.com --enumerate med
 ```
 
 ------------------------------------------------------------------------------
@@ -62,17 +62,17 @@ wpscan.rb --url www.example.com --enumerate med
 
 ### Bruteforce on One user
 ```
-wpscan.rb --url www.example.com --wordlist passlist.txt --username admin
+wpscan --url www.example.com --wordlist passlist.txt --username admin
 ```
 
 ### Bruteforce on all found users with 20 threads
 ```
-wpscan.rb --url www.example.com --wordlist passlist.txt --threads 20 
+wpscan --url www.example.com --wordlist passlist.txt --threads 20 
 ```
 
 ### Bruteforce on all found users with 1 Second Delay Between Requests
 ```
-wpscan.rb --url www.example.com --wordlist passlist.txt --throttle 1 
+wpscan --url www.example.com --wordlist passlist.txt --throttle 1 
 ```
 
 ### Bruteforce with passlist and username list
